@@ -158,5 +158,6 @@
 @property (nonatomic,retain) NSArray *sectionArray;
 @property (nonatomic,retain) NSMutableArray *sectionArrayOpen;
 @property (nonatomic,retain) NSMutableArray *extraSectionRichResults;
+@property (strong, nonatomic) UISearchController *searchController;
 
 @end
